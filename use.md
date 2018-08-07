@@ -7,7 +7,7 @@ vue init webpack yourapp
 $ npm i -S postcss-aspect-ratio-mini postcss-px-to-viewport postcss-write-svg postcss-cssnext postcss-viewport-units cssnano
 ```
 # 修改根目录下的`.postcssrc.js`
-```json
+```javascript
 module.exports = {
   "plugins": {
     "postcss-import": {},
